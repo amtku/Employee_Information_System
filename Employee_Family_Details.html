@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<style>
+    .text {
+        text-align: center;
+        border: 3px solid red;
+        background-color: rgb(215, 235, 215);
+        opacity: 0.7;
+        margin: 25px 350px 75px 350px;
+    }
+    
+    a:link {
+        color: green;
+    }
+    
+    a:visited {
+        color: hotpink;
+    }
+    
+    a:hover {
+        color: red;
+    }
+    
+    a:active {
+        color: blue;
+    }
+    
+    a:link {
+        text-decoration: none;
+    }
+</style>
+
+<body style=" background-image: url(Image/26.jpg);
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;">
+
+    <form action="Employee_Family_Details.php" method="post">
+        <div align="center" class="text">
+            <h2>Please Fill This Form <br><br></h2>
+
+            <label>Family Id: </label>
+            <input type="number" name="Family_Id" required>
+            </br>
+            </br>
+
+            <label>Employee Id: </label>
+            <input type="number" name="Emp_Id" required>
+            </br>
+            </br>
+
+            <label>Employee Relation Id: </label>
+            <input type="number" name="Emp_Relation_Id" required>
+            </br>
+            </br>
+
+            <label>Relation Name: </label>
+            <input type="text" name="Relation_Name" required>
+            </br>
+            </br>
+
+            <label>Relation Age: </label>
+            <input type="number" name="Relation_Age" required>
+            </br>
+            </br>
+
+            <label>Nominee Name: </label>
+            <input type="number" name="Nominee" required>
+            </br>
+            </br>
+
+
+
+            <input type="submit" value="Submit"><br>
+
+            <a href="index.html">
+                <h2>Home Page</h2>
+            </a>
+        </div>
+    </form>
+
+</body>
+
+</html>

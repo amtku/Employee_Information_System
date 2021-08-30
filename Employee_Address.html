@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<style>
+    .text {
+        text-align: center;
+        border: 3px solid red;
+        background-color: rgb(215, 235, 215);
+        opacity: 0.7;
+        margin: 25px 350px 75px 350px;
+    }
+    
+    a:link {
+        color: green;
+    }
+    
+    a:visited {
+        color: hotpink;
+    }
+    
+    a:hover {
+        color: red;
+    }
+    
+    a:active {
+        color: blue;
+    }
+    
+    a:link {
+        text-decoration: none;
+    }
+</style>
+
+<body style=" background-image: url(Image/14.jpg);
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;">
+
+    <form action="Employee_Address.php" method="post">
+        <div align="center" class="text">
+            <h2>Please Fill This Form <br><br></h2>
+
+            <label>Address Id: </label>
+            <input type="number" name="Address_Id" required>
+            </br>
+            </br>
+
+            <label>Employee Id: </label>
+            <input type="number" name="Emp_Id" required>
+            </br>
+            </br>
+
+            <label>Address 1 (State): </label>
+            <input type="text" name="Address1" required>
+            </br>
+            </br>
+
+            <label>Address 2 (City): </label>
+            <input type="text" name="Address2" required>
+            </br>
+            </br>
+
+            <label>Telephone Number: </label>
+            <input type="text" name="Tel_No" required>
+            </br>
+            </br>
+
+            <label>Address Type: </label>
+            <input type="number" name="Address_Type" required>
+            </br>
+            </br>
+
+            <input type="submit" value="Submit"><br>
+
+            <a href="index.html">
+                <h2>Home Page</h2>
+            </a>
+        </div>
+    </form>
+
+</body>
+
+</html>
